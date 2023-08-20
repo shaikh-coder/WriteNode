@@ -1,7 +1,7 @@
+import Logo from "../assets/logo.jpg";
 import { Link, NavLink } from "react-router-dom";
 import { auth, provider } from "../firebase/config";
 import { signInWithPopup, signOut } from "firebase/auth";
-import Logo from "../assets/logo.jpg";
 import { useState } from "react";
 
 export const Header = () => {
